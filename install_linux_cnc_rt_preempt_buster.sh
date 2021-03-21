@@ -1,4 +1,7 @@
 #!/bin/bash
+# chmod this file to 0755
+# chmod 0755 install_linux_cnc_rt_preempt_buster.sh
+# sudo ./install_linux_cnc_rt_preempt_buster.sh
 FILE=/etc/apt/sources.dlh.orig
 CNCFILE=/etc/apt/sources.list.d/linuxcnc.list
 if [ ! -f "$FILE" ]; then
