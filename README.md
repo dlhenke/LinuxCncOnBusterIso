@@ -1,11 +1,19 @@
 # LinuxCNCDebianBuster Install scripts
+
 Download a Debian iso from debian with bittorrent 
 https://cdimage.debian.org/debian-cd/current-live/amd64/bt-hybrid/
-install it and then run this script as sudo
+install it and then run this script as sudo (you must belong to the sudoers group ).
 it will correct majority of low resolution screens (Depends wich monitor and vga card you have in your computer) 
-chmod 0755 install_linux_cnc_rt_preempt_buster.sh
+chmod 0755 *.sh
 
 sudo ./install_linux_cnc_rt_preempt_buster.sh
+or
+sudo ./install_lcnc_rtai.sh 
+
+to install probe_basic and also probe_basic development
+
+./install_probe_basic.sh ( Do not use sudo when needed the script will ask for sudo password )
+
 
 Execute grub-customizer from menu
 
