@@ -3,6 +3,7 @@
 Download a Debian iso from debian with bittorrent 
 https://cdimage.debian.org/debian-cd/current-live/amd64/bt-hybrid/
 install it and then run this script as sudo (you must belong to the sudoers group ).
+IN ORDER TO BE IN THE SUDOERS GROUP DO NOT PUT PASSWORD TO ROOT USER WHEN ASKED ON DEBIAN INSTALLATION
 it will correct majority of low resolution screens (Depends wich monitor and vga card you have in your computer) 
 chmod 0755 *.sh
 
