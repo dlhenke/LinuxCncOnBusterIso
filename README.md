@@ -1,14 +1,19 @@
 # LinuxCNCDebianBuster Install scripts
 
-Download a Debian iso from debian with bittorrent 
-https://cdimage.debian.org/debian-cd/current-live/amd64/bt-hybrid/
+Download a Debian iso from debian with non-free firmwares
+
+https://cdimage.debian.org/cdimage/unofficial/non-free/cd-including-firmware/current-live/amd64/iso-hybrid/
+
 install it and then run this script as sudo (you must belong to the sudoers group ).
-IN ORDER TO BE IN THE SUDOERS GROUP DO NOT PUT PASSWORD TO ROOT USER WHEN ASKED ON DEBIAN INSTALLATION
-it will correct majority of low resolution screens (Depends wich monitor and vga card you have in your computer) 
+
+IN ORDER TO BE IN THE SUDOERS GROUP DO NOT FILL PASSWORD ON ROOT ACCOUNT 
+
 chmod 0755 *.sh
 
 sudo ./install_linux_cnc_rt_preempt_buster.sh
+
 or
+
 sudo ./install_lcnc_rtai.sh 
 
 to install probe_basic and also probe_basic development
